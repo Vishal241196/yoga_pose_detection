@@ -15,7 +15,8 @@ HTML: Developed a user-friendly interface for uploading images and viewing detec
 3. Example: A demonstration of the project in action, showcasing its capabilities.
 4. Credits: Acknowledgment of any third-party resources or contributions.
 
-## Challenges: Overcame various challenges during model training and deployment, including dataset preparation and model optimization.
+## Challenges: 
+- Overcame various challenges during model training and deployment, including dataset preparation and model optimization.
 
 ## Solutions:
 - Implemented effective solutions to address challenges, resulting in a robust and accurate yoga pose detection system.
