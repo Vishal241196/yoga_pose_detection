@@ -1,0 +1,9 @@
+# yoga_dataset.yaml
+train: C:/Users/admin/yogaPose/data/TRAIN/trainnData/yolo_annotations/images  # training set images path
+val: C:/Users/admin/yogaPose/data/TRAIN/trainnData/yolo_annotations/images    # validation set images path (you can split your dataset)
+
+# Number of classes
+nc: 5  # replace <number_of_classes> with your actual number of classes
+
+# Class names
+names: ["downdog", "goddess", "plank", "tree", "warrior2"]  # replace with your actual class names

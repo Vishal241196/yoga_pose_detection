@@ -1,0 +1,1 @@
+python detect.py --weights "C:\Users\admin\yogaPose\yolov5\runs\train\exp2\weights\best.pt" --source "C:\Users\admin\yogaPose\data\TEST\plank\00000004.JPG" --conf 0.25 --save-txt --save-conf
