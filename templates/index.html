@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Image for Pose Detection</title>
+    <script>
+        function previewImage(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('uploaded-image').src = e.target.result;
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Upload Image for Pose Detection</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" onchange="previewImage(this);" accept="image/*">
+        <input type="submit" value="Upload">
+    </form>
+    <br>
+    <img id="uploaded-image" style="max-width: 600px; max-height: 400px;">
+</body>
+</html>
